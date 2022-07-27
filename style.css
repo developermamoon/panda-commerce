@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav .container{
+    /* background-color: #F8F9FA; */
+}
 .slider-color{
     background-color: #FCEAE8;
 }
