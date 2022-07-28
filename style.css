@@ -16,12 +16,20 @@ nav .container{
 }
 
 .button-style{
-    background-color: #FF297D;
-    color: white;
-    border: 0;
-    padding: 10px 30px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 9px 25px;
 }
 .button-style:hover{
-    background-color: #FF297D;
     border: 0;
+}
+
+@media only screen and (min-width: 0) and (max-width: 768px) {
+    .mobile-format{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    
 }
