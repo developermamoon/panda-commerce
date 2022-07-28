@@ -14,3 +14,14 @@ nav .container{
 .category-img-width{
     width: 35%;
 }
+
+.button-style{
+    background-color: #FF297D;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+}
+.button-style:hover{
+    background-color: #FF297D;
+    border: 0;
+}
